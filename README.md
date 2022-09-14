@@ -1,1 +1,0 @@
-# IslamKumbayev.github.io
