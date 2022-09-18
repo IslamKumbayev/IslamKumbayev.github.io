@@ -10,10 +10,18 @@ body {
     background-color: rgb(185, 238, 185);
     }
 
+.names li{
+    
+}
+
+#img {
+    float:right
+}
 #nameislam {
     font-style: italic;
     color: red;
     text-shadow: 1px 1px;
+    float:right;
     }
 .names li::first-letter{
     color: white;
@@ -45,6 +53,10 @@ h2, h3 {
     display: inline-flex;
     list-style-type: square;
     border: 5px outset grey;
+    position: absolute;
+    float: right;
+    right: 370px;
+    top: 170px; 
 }
 
 .menu li{
@@ -64,3 +76,43 @@ h2, h3 {
 selector::pseudo-class {
     property: value;
     }
+
+#deadline {
+    color: rgb(238, 28, 28)
+}
+
+#grading {
+    
+}
+
+.st {
+    float: right;
+    position: static;
+    right: 100px;
+}
+.st2 {
+    float: right;
+    position: relative;
+    right: 100 px;
+    top: 25px;
+}
+.active {
+    
+}
+.categories{
+    float: right;
+    position: absolute;
+    right: 800px;
+    top: 2300px;
+}
+.quick_links{
+    float: right;
+    position: absolute;
+    right: 600px;
+    top: 2300px;
+}
+[href] {text-decoration: none ; font-style: italic; } 
+  a:link {color: rgb(2, 167, 2);}
+  a:hover {background-color:antiquewhite; color: white;}
+  a:visited {color:rgb(33, 12, 218);}
+  a:active {color: red;}
