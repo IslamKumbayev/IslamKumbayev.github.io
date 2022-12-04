@@ -17,7 +17,7 @@ function NavBar() {
     let a = document.createElement("a");
     a.innerHTML = "Experience";
     a.classList.add("navtex");
-    a.setAttribute("href", "../history.html");
+    a.setAttribute("href", "history.html");
     li.appendChild(a);
     ul.appendChild(li);
 
@@ -25,7 +25,7 @@ function NavBar() {
     a = document.createElement("a");
     a.innerHTML = "Achievement";
     a.classList.add("navtex");
-    a.setAttribute("href", "../achievement.html");
+    a.setAttribute("href", "achievement.html");
     li.appendChild(a);
     ul.appendChild(li);
 
@@ -33,7 +33,7 @@ function NavBar() {
     a = document.createElement("a");
     a.innerHTML = "Photos";
     a.classList.add("navtex");
-    a.setAttribute("href", "../photo.html");
+    a.setAttribute("href", "photo.html");
     li.appendChild(a);
     ul.appendChild(li);
 
@@ -41,7 +41,7 @@ function NavBar() {
     a = document.createElement("a");
     a.innerHTML = "Home Page";
     a.classList.add("navtex");
-    a.setAttribute("href", "../index.html");
+    a.setAttribute("href", "index.html");
     li.appendChild(a);
     ul.appendChild(li);
 
