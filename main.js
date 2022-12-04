@@ -33,7 +33,7 @@ function NavBar() {
     a = document.createElement("a");
     a.innerHTML = "Photos";
     a.classList.add("navtex");
-    a.setAttribute("href", "pages/photo.html");
+    a.setAttribute("href", "pages/photos.html");
     li.appendChild(a);
     ul.appendChild(li);
 
